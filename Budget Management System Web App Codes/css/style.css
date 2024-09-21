@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#intro{
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+/* BODY CSS*/
+
+/* NAVBAR HERE */
+ul {
+  list-style: none;
+}
+
+a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color:white;
+  background: black;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link li {
+  margin: 0 30px;
+}
+
+/* NAVBAR HERE */
+
+/* FORM HERE */
+label {
+  display: block;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input {
+  border: 2px solid #333;
+  border-radius: 10px;
+  color: #333;
+  font-size: 22px;
+  margin: 0 0 10px;
+  padding: .5rem 1rem;
+  width: 100%;
+}
+
+select,option {
+  border: 2px solid #333;
+  border-radius: 10px;
+  color: #333;
+  font-size: 22px;
+  margin: 0 0 10px;
+  padding: .5rem 1rem;
+  width: 100%;
+}
+
+#fill{
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+button {
+  background: lightblue;
+  border: 2px solid #333;
+  border-radius: 5px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+button:hover {
+  background: #333;
+  border: 2px solid #333;
+  color: #fff;
+}
+
+#here{
+  color: lightblue;
+}
+/* FORM HERE */
+
+footer {
+  padding: 20px 15%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: black;
+  color: white;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Mangement System</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/budget316.png" type="image/x-icon">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">SBMS</h1>
+        <ul class="nav-link">
+            <li><a href="#entry">Budget Entry</a></li>
+            <li><a href="#foot">Footer</a></li>
+        </ul>
+    </nav>
+
+    <br><br><br><br>
+
+    <section id="entry">
+     <h2 id="intro">Budget Management System</h2>
+     <form action="/add_transaction" method="post" id="budgetform">
+        <h4 id="fill">Budget Entry</h4>
+
+        <br>
+
+        <!-- Date Input -->
+        <label for="Date">Date:</label> 
+        <input type="date" name="date" id="date" placeholder=""  required>
+
+        <br><br>
+
+        <!-- Description Input -->
+        <label for="Description">Description:</label>
+        <input type="text" name="decription" id="" placeholder="Input Description of Budget" required>
+
+        <br><br>
+
+        <!-- Amount Input -->
+        <label for="Amount">Amount:</label>
+        <input type="text" name="amount" id="currency-field" pattern="^\N\d{1,3}(,\d{3})*(\.\d+)?N" value="" data-type="currency" placeholder="Input Amount Ex ₦1,000,000.00">
+        <br><br>
+
+        <!-- Category Input -->
+        <label for="Category">Category:</label>
+        <select name="category" id="cate">
+            <option value="selectyourcategory">Select Your Category</option>
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+        </select>
+
+        <br><br>
+
+        <center><button type="submit" value="Submit" id="submit">Submit</button></center>
+
+     </form>
+    </section>
+
+    <section>
+        <h3>To login or signup <a href="login.html" id="here">Click Here</a></h3>
+    </section>
+
+    <br><br>
+
+    <footer id="foot">
+        <p>Copyright @ 2024 by Kolawole Oluwagbemiga All Rights Preserved. Project made for Bingham University.</p>
+    </footer>
+
+    <script src="js/action.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+https://www.machinet.net/tutorial-eng/use-python-build-personal-finance-tracker-automated-expense-categorization
+
+We will be using Flask for our Web App, SQLite for database management, Pandas for data manipulation, and ScikitLearn for clustering our transactions.
+
+Building a personal finance tracker with automated expense categorization requires knowledge of Python, command of necessary libraries like Pandas, SQLite, and Machine Learning along with basics of web development for visualization (HTML, CSS, JavaScript).
+KMeans Algorithm 
+
+uses python programming language, Flask, SQLite, Pandas Library, ScikitLearn Library, and KMeans Algorithm. 
+
+Agile Model
+Steps in the Agile Model
+The agile model is a combination of iterative and incremental process models. The steps involve in agile SDLC models are: 
+1. Requirement gathering
+2. Design the Requirements
+3. Construction / Iteration
+4. Testing / Quality Assurance
+5. Deployment
+6. Feedback
+
+1. Requirement Gathering:- In this step, the development team must gather the requirements, by interaction with the customer. development team should plan the time and effort needed to build the project. Based on this information you can evaluate technical and economical feasibility.
+
+2. Design the Requirements:- In this step, the development team will use user-flow-diagram or high-level UML diagrams to show the working of the new features and show how they will apply to the existing software. Wireframing and designing user interfaces are done in this phase.
+
+3. Construction / Iteration:- In this step, development team members start working on their project, which aims to deploy a working product.
+
+4. Testing / Quality Assurance:- Testing involves Unit Testing, Integration Testing, and System Testing. A brief introduction of these three tests is as follows:
+i. Unit Testing:- Unit testing is the process of checking small pieces of code to ensure that the individual parts of a program work properly on their own. Unit testing is used to test individual blocks (units) of code.
+
+ii. Integration Testing:- Integration testing is used to identify and resolve any issues that may arise when different units of the software are combined.
+
+iii. System Testing:- Goal is to ensure that the software meets the requirements of the users and that it works correctly in all possible scenarios.
+
+5. Deployment:- In this step, the development team will deploy the working project to end users.
+
+6. Feedback:- This is the last step of the Agile Model. In this, the team receives feedback about the product and works on correcting bugs based on feedback provided by the customer.
